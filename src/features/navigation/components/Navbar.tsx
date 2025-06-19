@@ -19,8 +19,8 @@ const Navbar = () => {
         <SearchInput />
       </div>
       <div className="flex items-center gap-3">
-        <CircleUserRound />
-        <Heart />
+        <CircleUserRound className="cursor-pointer" />
+        <Heart className="cursor-pointer" />
 
         <div className="flex gap-1">
           Cart <ChevronDown />

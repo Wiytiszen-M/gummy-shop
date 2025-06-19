@@ -1,3 +1,9 @@
+import ProductGrid from "@/features/product/components/ProductGrid";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <ProductGrid />
+    </div>
+  );
 }
